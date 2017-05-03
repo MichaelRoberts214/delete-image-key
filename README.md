@@ -18,4 +18,6 @@ $/delete-image-key node process.js
 
 # Bonus
 If you set your `KEY_TO_DELETE` environment variable as a string, this node script will delete that key instead of `image`.
-
+```
+$/delete-image-key KEY_TO_DELETE='some key' node process.js
+```
